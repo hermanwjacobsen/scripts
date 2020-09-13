@@ -180,4 +180,11 @@ systemctl reload nginx
 #
 ## service nginx restart
 
+# in order to get vlan information to the config backup file add these lines to ios.rb located in 
+# /var/lib/gems/2.7.0/gems/oxidized-0.28.0/lib/oxidized/model/ios.rb
+# /var/lib/gems/2.7.0/gems/oxidized-0.26.0/lib/oxidized/model/ios.rb
+#  cmd 'show vlan brief' do |cfg|
+#    comment cfg
+#  end
+
 
