@@ -21,8 +21,8 @@ chown oxidized:oxidized /var/lib/oxidized
 cat <<EOF> /opt/oxidized/.config/oxidized/config
 # /opt/oxidized/.config/oxidized/config
 ---
-username: root
-password: Password0.2020
+username: username
+password: password
 model: cisco
 interval: 60
 use_syslog: true
@@ -76,11 +76,11 @@ model_map:
 
 groups:
   juniper:
-    username: root
-    password: Password0.2020
+    username: username
+    password: password
   cisco:
-    username: root
-    password: Password0.2020
+    username: username
+    password: password
 
 models: {}
 EOF
